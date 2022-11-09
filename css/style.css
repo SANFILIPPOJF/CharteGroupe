@@ -4,3 +4,7 @@ header {
 	position:sticky;
     height: 10%;
 }
+
+li {
+    list-style-image: url("/images/bullet.png");
+}
