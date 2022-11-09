@@ -1,10 +1,13 @@
+/* titre de la page fixe */
 header {
 	font-size: 20px;
     background-color:aquamarine;
-	position:sticky;
+	position:fixed; 
     height: 10%;
+    width: 100%;
 }
-
+/* changement puce de liste */
 li {
     list-style-image: url("/images/bullet.png");
 }
+
