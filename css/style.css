@@ -5,9 +5,15 @@ header {
 	position:fixed; 
     height: 10%;
     width: 100%;
+    fill-opacity:
 }
 /* changement puce de liste */
 li {
     list-style-image: url("/images/bullet.png");
 }
+/* Accecder à la charte */
+
+/* Bouton bonus */ 
+
+/* Cadre de chapitres (partie masquée) */
 
