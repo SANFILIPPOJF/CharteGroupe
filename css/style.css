@@ -1,13 +1,14 @@
 /* titre de la page fixe */
 header {
 	font-size: 20px;
-    background-color:aquamarine;
+    background-color:white;
 	position:fixed; 
     height: 10%;
     width: 100%;
     fill-opacity:
 }
 /* changement puce de liste */
+
 li {
     list-style-image: url("/images/bullet.png");
 }
@@ -16,4 +17,37 @@ li {
 /* Bouton bonus */ 
 
 /* Cadre de chapitres (partie masquée) */
+.column
+{
+    position: relative;
+    height: 10%;
+    color: black;
+    flex-direction: column;
+}
+/* Encadrement réduit et agrandissement des listes à puce*/
+details {
+    border: 1px outset #aaa;
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px grey;
+    padding: .5em .5em 0;
+    color: black;
+    background-color: white;
+    margin: 4px 0 6px 1px;
+}
 
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+/* Corps de l'application*/
+body
+{
+	background-color: lightgray;
+	background-repeat: no-repeat;
+}
