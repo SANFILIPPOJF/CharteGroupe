@@ -10,7 +10,7 @@ header {
 
 /* changement puce de liste */
 li {
-    list-style-image: url("images/bullet.png");
+    list-style-image: url("/images/bullet.png");
 }
 /* Accecder à la charte */
 #AccesCharte {
