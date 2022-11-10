@@ -5,15 +5,23 @@ header {
 	position:fixed;
     z-index: 1;
     width: 100%;
+}
+
 
 /* changement puce de liste */
-
 li {
     list-style-image: url("images/bullet.png");
 }
-
 /* Accecder à la charte */
-
+#AccesCharte {
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+.row{
+    max-width: 50%;
+    display: row;
+}
 /* Bouton bonus */ 
 
 /* Cadre de chapitres (partie masquée) */
