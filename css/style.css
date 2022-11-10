@@ -2,9 +2,15 @@
 header {
 	font-size: 20px;
     background-color:white;
+<<<<<<< HEAD
 	position:fixed;
     z-index: 1;
+=======
+	position: fixed; 
+    height: 10%;
+>>>>>>> 8e5e47623bdc0984b77e0300890b97cfeed8b54e
     width: 100%;
+    fill-opacity:1;
 }
 main{
     margin-top: ;
@@ -14,10 +20,8 @@ main{
 li {
     list-style-image: url("/images/bullet.png");
 }
-/* Acceder à la charte */
-#BoutonCharte {
-    background-color: red;
-}
+/* Accecder à la charte */
+
 /* Bouton bonus */ 
 
 /* Cadre de chapitres (partie masquée) */
@@ -30,7 +34,7 @@ li {
 }
 /* Encadrement réduit et agrandissement des listes à puce*/
 details {
-    border: 1px outset #aaa;
+    border: 1px outset #aaa;user-select: none;
     border-radius: 4px;
     box-shadow: 5px 3px 2px grey;
     padding: .5em .5em 0;
