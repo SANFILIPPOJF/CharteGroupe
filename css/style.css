@@ -2,15 +2,9 @@
 header {
 	font-size: 20px;
     background-color:white;
-<<<<<<< HEAD
 	position:fixed;
     z-index: 1;
-=======
-	position: fixed; 
-    height: 10%;
->>>>>>> 8e5e47623bdc0984b77e0300890b97cfeed8b54e
     width: 100%;
-    fill-opacity:1;
 }
 main{
     margin-top: ;
