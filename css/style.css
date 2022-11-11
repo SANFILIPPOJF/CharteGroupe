@@ -14,16 +14,22 @@ li {
 
 /* Accecder à la charte */
 #AccesCharte {
-    background-color: red;
-    color: white;
+    background-color:#E40034 ;
     border-radius: 3px;
+    float: left;
 }
-.row{
-    max-width: 50%;
-    display: row;
+#AccesCharte, a {
+    text-decoration: none;
+    color: white;
 }
-/* Bouton bonus */ 
-
+/*.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Bouton bonus *
+#random {
+    
+}
 /* Cadre de chapitres (partie masquée) */
 .column
 {
@@ -34,9 +40,9 @@ li {
 }
 /* Encadrement réduit et agrandissement des listes à puce*/
 details {
-    border: 1px outset #aaa;user-select: none;
+    border: 1px outset white;user-select: none;
     border-radius: 4px;
-    box-shadow: 5px 3px 2px grey;
+    box-shadow: 3px 2px 2px grey;
     padding: .5em .5em 0;
     color: black;
     background-color: white;
