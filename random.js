@@ -9,6 +9,11 @@ const NbApprenant = LesPrenoms.length;
 function Randomize (){
     PrenomElu = LesPrenoms[(Math.random() * NbApprenant)];
     bouton.innerHTML = PrenomElu;
+    setTimeout(ClearPrenom,3000);
+}
+
+function ClearPrenom(){
+    bouton.innerHTML = "RANDOM APPRENANT";
 }
 
 bouton.addEventListener('click', Randomize);
