@@ -30,10 +30,19 @@ header {
     text-decoration: none;
     color: white;
 }
+<<<<<<< HEAD
 
 /* Bouton bonus *
+=======
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Bouton bonus */
+>>>>>>> ae833f5f53521067f566f05f09b80f55ed0ecd53
 #random {
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Cadre de chapitres (partie masquée) */
 .column
