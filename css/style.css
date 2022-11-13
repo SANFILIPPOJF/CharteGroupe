@@ -22,13 +22,14 @@ li {
     text-decoration: none;
     color: white;
 }
-/*.row{
+.row{
     display: flex;
     flex-wrap: wrap;
 }
-/* Bouton bonus *
+/* Bouton bonus */
 #random {
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Cadre de chapitres (partie masquée) */
 .column
