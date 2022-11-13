@@ -3,13 +3,21 @@ header {
 	font-size: 20px;
     background-color:white;
 	position:fixed;
+    top: 0;
     z-index: 1;
     width: 100%;
 }
-
+#row {
+    list-style-type: none;
+    margin-top: 100px;
+    display: flex;
+}
+#row li{
+    max-width: 100;
+}
 
 /* changement puce de liste */
-li {
+.column li {
     list-style-image: url("/images/bullet.png");
 }
 /* Accecder à la charte */
@@ -22,10 +30,7 @@ li {
     text-decoration: none;
     color: white;
 }
-/*.row{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 /* Bouton bonus *
 #random {
     
@@ -42,7 +47,7 @@ li {
 details {
     border: 1px outset white;user-select: none;
     border-radius: 4px;
-    box-shadow: 3px 2px 2px grey;
+    box-shadow: 0px 0px 7px grey;
     padding: .5em .5em 0;
     color: black;
     background-color: white;
