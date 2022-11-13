@@ -7,27 +7,30 @@ header {
     z-index: 1;
     width: 100%;
 }
-@media (max-width: 550px){
+@media (min-width: 750px){
 #colonne {
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 50px;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 #colonne li{
     max-width: 50%;
 }
 }
+@media (min-width: 300px){
 #colonne {
     list-style-type: none;
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 50px;
     display: flex;
-    justify-content: space-between;
 }
 #colonne li{
     max-width: 50%;
+}
 }
 /* changement puce de liste */
 .column li {
