@@ -13,7 +13,7 @@ header {
     display: flex;
 }
 #row li{
-    max-width: 100;
+    max-width: 50%;
 }
 
 /* changement puce de liste */
@@ -31,6 +31,9 @@ header {
     color: white;
 }
 /* Cadre de chapitres (partie masquée) */
+.cliquez{
+    font-size: 0.6em;
+}
 .column
 {
     position: relative;
