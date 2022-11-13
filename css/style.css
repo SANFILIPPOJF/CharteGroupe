@@ -7,15 +7,28 @@ header {
     z-index: 1;
     width: 100%;
 }
-#row {
-    list-style-type: none;
+@media (max-width: 550px){
+#colonne {
     margin-top: 100px;
-    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+    list-style-type: none;
 }
-#row li{
+#colonne li{
     max-width: 50%;
 }
-
+}
+#colonne {
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#colonne li{
+    max-width: 50%;
+}
 /* changement puce de liste */
 .column li {
     list-style-image: url("/images/bullet.png");
@@ -61,7 +74,9 @@ summary {
 details[open] {
     padding: .5em;
 }
-
+#promo{
+    margin-left: 30px;
+}
 /* Corps de l'application*/
 body
 {

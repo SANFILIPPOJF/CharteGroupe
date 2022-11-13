@@ -16,5 +16,5 @@ function Randomize (){
 }
 /*-- Fonction réinitialisant le bouton avec son "texte" d'origine --*/
 function ClearPrenom(){
-    texte.innerHTML = "... le prénom est ...";
+    texte.innerHTML = "... le prénom ...";
 }
