@@ -1,5 +1,5 @@
 /*-- Création des variables et constantes et tableaux des prénoms--*/
-const bouton = document.querySelector("random");
+/*const bouton = document.querySelector("random");*/
 const texte = document.getElementById('resultat');
 const LesPrenoms = ['Arnaud', 'Delphine', 'Kevin', 'Johann', 'Terry',
     'Pierre', 'Sebastien', 'Sokunthy', 'Stéphane', 'Jessie', 'Jean-Sebastien',
@@ -16,5 +16,5 @@ function Randomize (){
 }
 /*-- Fonction réinitialisant le bouton avec son "texte" d'origine --*/
 function ClearPrenom(){
-    texte.innerHTML = "Un suivant(e)";
+    texte.innerHTML = "... le prénom est ...";
 }
